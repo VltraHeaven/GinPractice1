@@ -1,9 +1,15 @@
 <!--index.html-->
 <!--Embedding the header.html template here-->
+<!DOCTYPE html>
+<html lang="en">
 {{ template "header.html" . }}
+
+<body>
+{{ template "menu.html" . }}
 <h1>
     GinPractice #1
 </h1>
 </body>
 <!--Embedding the footer.html template here-->
 {{ template "footer.html" . }}
+</html>
